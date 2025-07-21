@@ -7,6 +7,6 @@ A nonprofit dedicated to empowering amateur combat sports athletes through mento
 
 ---
 
-Built and maintained with ❤️ by our volunteer team.  
+Built and maintained with ❤️ by a volunteer team.  
 
  
