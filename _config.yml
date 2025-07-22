@@ -2,11 +2,11 @@ title: The MAT Association
 description: Empowering the next generation of champions.
 
 theme: pages-themes/cayman@v0.2.0
-# theme: pages-themes/slate
-# theme: pages-themes/hacker
-# theme: pages-themes/architect
-# theme: pages-themes/time-machine
-# theme: pages-themes/dinky
+# theme: pages-themes/slate@v0.2.0
+# theme: pages-themes/hacker@v0.2.0
+# theme: pages-themes/architect@v0.2.0
+# theme: pages-themes/time-machine@v0.2.0
+# theme: pages-themes/dinky@v0.2.0
 
 plugins:
   - jekyll-seo-tag
