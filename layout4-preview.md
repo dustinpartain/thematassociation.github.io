@@ -1,7 +1,7 @@
 ---
-layout: layout4
+layout: default
 title: Layout 4 Preview
-permalink: /layout4-preview.html
+permalink: /layout4-preview/
 ---
 
-Clean and modern card-style layout for focused reading.
+{% include layout4-content.html %}
