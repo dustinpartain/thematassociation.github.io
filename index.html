@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The MAT Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-black">
+
+  <!-- Hero Section -->
+  <section class="bg-black text-white p-8 text-center">
+    <img src="/assets/clinic1.jpg" alt="Clinic Promo" class="mx-auto max-w-xs rounded-lg mb-4" />
+    <h1 class="text-4xl font-bold">The MAT Association</h1>
+    <p class="mt-2">Empowering the next generation of champions</p>
+    <div class="mt-4 flex justify-center gap-4">
+      <a href="https://www.zeffy.com" class="bg-red-600 px-4 py-2 rounded hover:bg-red-700">Donate Now</a>
+      <a href="#vote" class="bg-white text-black px-4 py-2 rounded hover:bg-gray-200">Join a Clinic</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="p-6">
+    <h2 class="text-2xl font-bold">About MAT</h2>
+    <p class="mt-2">The MAT Association is dedicated to empowering amateur combat sports athletes...</p>
+
+    <h3 class="font-semibold mt-4">Mission</h3>
+    <p>Create an inclusive community offering elite coaching, facilities, and academic resources...</p>
+
+    <h3 class="font-semibold mt-4">Vision</h3>
+    <p>To fuel aspirations through mentorship and access...</p>
+
+    <h3 class="font-semibold mt-4">Purpose</h3>
+    <p>To remove barriers and open doors for athletes historically excluded...</p>
+  </section>
+
+  <!-- Layout Links -->
+  <section class="p-6 bg-white">
+    <h2 class="text-xl font-bold">Choose a Layout to Preview</h2>
+    <ul class="list-disc list-inside mt-3">
+      <li><a href="layout0.html" class="text-blue-600 underline">Layout 0</a></li>
+      <li><a href="layout1.html" class="text-blue-600 underline">Layout 1</a></li>
+      <li><a href="layout2.html" class="text-blue-600 underline">Layout 2</a></li>
+      <li><a href="layout3.html" class="text-blue-600 underline">Layout 3</a></li>
+      <li><a href="layout4.html" class="text-blue-600 underline">Layout 4</a></li>
+    </ul>
+  </section>
+
+
+  
+  <!-- Voting Section -->
+  <section id="vote" class="p-6 bg-gray-100">
+    <h2 class="text-xl font-bold">Vote for Your Favorite Layout</h2>
+    <form action="https://formspree.io/f/xkgzjbjn" method="POST" class="space-y-4 max-w-xl mt-4">
+      <input type="text" name="name" placeholder="Your Name" required class="w-full p-2 border rounded" />
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 border rounded" />
+      <p class="text-sm text-gray-700">Distribute up to 100 total credits across the 5 layouts:</p>
+      <div class="grid grid-cols-2 gap-4">
+        <input type="number" name="layout0" min="0" max="100" placeholder="Layout 0 Votes" class="p-2 border rounded" />
+        <input type="number" name="layout1" min="0" max="100" placeholder="Layout 1 Votes" class="p-2 border rounded" />
+        <input type="number" name="layout2" min="0" max="100" placeholder="Layout 2 Votes" class="p-2 border rounded" />
+        <input type="number" name="layout3" min="0" max="100" placeholder="Layout 3 Votes" class="p-2 border rounded" />
+        <input type="number" name="layout4" min="0" max="100" placeholder="Layout 4 Votes" class="p-2 border rounded" />
+      </div>
+      <button type="submit" class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Submit Vote</button>
+    </form>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="p-6">
+    <h2 class="text-xl font-bold mb-2">Get in Touch</h2>
+    <form action="https://formspree.io/f/xkgzjbjn" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Name" required class="w-full p-2 border rounded" />
+      <input type="email" name="email" placeholder="Email" required class="w-full p-2 border rounded" />
+      <textarea name="message" rows="4" placeholder="Message" required class="w-full p-2 border rounded"></textarea>
+      <button type="submit" class="bg-red-600 px-4 py-2 rounded text-white hover:bg-red-700">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center p-4 text-sm mt-8">
+    &copy; 2025 The MAT Association •
+    <a href="https://linkedin.com" class="underline ml-2">LinkedIn</a>
+    <a href="https://instagram.com" class="underline ml-2">Instagram</a>
+    <a href="https://twitter.com" class="underline ml-2">X</a>
+    <a href="https://facebook.com" class="underline ml-2">Meta</a>
+  </footer>
+
+</body>
+</html>
 
