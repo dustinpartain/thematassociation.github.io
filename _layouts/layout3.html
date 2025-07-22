@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>{{ page.title }}</title>
-  </head>
-<body style="background-color: lightgreen;">
-  <h1>Layout 3</h1>
-  {{ content }}
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <style>
+    body { display: flex; font-family: sans-serif; }
+    .sidebar {
+      width: 250px;
+      background: #f4f4f4;
+      padding: 1rem;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h3>Navigation</h3>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/layout1-preview.html">Layout 1</a></li>
+      <li><a href="/layout2-preview.html">Layout 2</a></li>
+      <li><a href="/layout4-preview.html">Layout 4</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </div>
 </body>
 </html>
+
