@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Layout 0 (Tailwind)
 permalink: /layout0-preview/
 ---
