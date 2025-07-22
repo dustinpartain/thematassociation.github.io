@@ -1,8 +1,8 @@
 title: The MAT Association
 description: Empowering the next generation of champions.
 
-remote_theme: pages-themes/cayman@v0.2.0
-# remote_theme: pages-themes/slate
+# remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/slate
 # remote_theme: pages-themes/hacker
 # remote_theme: pages-themes/architect
 # remote_theme: pages-themes/time-machine
