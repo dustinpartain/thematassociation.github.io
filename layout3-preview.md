@@ -1,7 +1,8 @@
 ---
-layout: layout3
+layout: default
 title: Layout 3 Preview
-permalink: /layout3-preview.html
+permalink: /layout3-preview/
 ---
 
-This is a sidebar-based layout with room for navigation.
+{% include layout3-content.html %}
+
