@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: layout1
 title: Welcome to The MAT Association
 ---
 
