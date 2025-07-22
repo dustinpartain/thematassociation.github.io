@@ -1,7 +1,7 @@
 ---
-layout: layout2
+layout: default
 title: Layout 2 Preview
-permalink: /layout2-preview.html
+permalink: /layout2-preview/
 ---
 
-This layout features a bold hero banner across the top.
+{% include layout2-content.html %}.
