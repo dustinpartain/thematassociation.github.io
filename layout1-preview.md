@@ -1,7 +1,8 @@
 ---
-layout: layout1
+layout: default
 title: Layout 1 Preview
-permalink: /layout1-preview.html
+permalink: /layout1-preview/
 ---
 
-This is a preview using Layout 1. Simple and centered.
+{% include layout1-content.html %}
+
