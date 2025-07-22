@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  <style>
+    .hero {
+      background: #333;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .content {
+      padding: 2rem;
+      font-family: sans-serif;
+    }
+  </style>
 </head>
-<body style="background-color: lightblue;">
-  <h1>Layout 2</h1>
-  {{ content }}
+<body>
+  <div class="hero">
+    <h1>{{ page.title }}</h1>
+    <p>A fresh, bold hero layout</p>
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
 </body>
 </html>
+
