@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Layout 3 Preview
+title: Layout 3 
 permalink: /layout3-preview/
 ---
 
