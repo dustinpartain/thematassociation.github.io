@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Layout 2 Preview
+layout: default
+title: Layout 2
 permalink: /layout2-preview/
 ---
 
