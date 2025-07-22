@@ -8,6 +8,7 @@ We are a nonprofit supporting amateur combat sports athletes through mentorship,
 Stay tuned for updates as we build our community and launch events.
 
 Choose a layout preview:
+- [Layout 0](layout0-preview.html)
 - [Layout 1](layout1-preview.html)
 - [Layout 2](layout2-preview.html)
 - [Layout 3](layout3-preview.html)
