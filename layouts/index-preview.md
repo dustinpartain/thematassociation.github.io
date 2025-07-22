@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Welcome to The MAT Association
+title: Minima Index Preview
+permalink: /index-preview/
 ---
 
 We are a nonprofit supporting amateur combat sports athletes through mentorship, access, and training.
