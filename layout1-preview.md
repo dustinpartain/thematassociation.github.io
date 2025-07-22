@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Layout 1 Preview
+layout: default
+title: Layout 1
 permalink: /layout1-preview/
 ---
 
